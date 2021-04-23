@@ -3,8 +3,16 @@ body {
     color: white;
 }
 
+/*
+GENEL OLARAK site içerisinde ki öğeleri Flexbox ile çok kolay bir şekilde yerleştirdik.
+   */
 
 
+
+/* 
+Navbar için;
+Yükseklik,boşluk ve hizalama yaptık.
+*/
 .nav {
     height: 10px;
     text-align: end;
@@ -18,17 +26,21 @@ body {
     height: 40px;
 }
 
+/*
+Navbar içerisinde ki linklerin rengini yazı tipi vb. değiştirdik.
+ */
 .nav a {
     color: white;
     text-decoration: none;
     font-family: arial, sans-serif;
     font-size: 13px;
 }
-
+/*Navbarda ki linklerin üstüne gelince linklerin altı çiziliyor. */
 .nav a:hover {
     text-decoration: underline;
 }
-
+/*Genel kapsayıcı bir kutu ekledik.
+Boyutlandırma yaptık.  */
 .container {
     margin: 20px 200px 110px 350px;
     width: 600px;
@@ -47,7 +59,7 @@ body {
     display: flex;
     justify-content: center;
 }
-
+/* Arama çubuğunun boyutlarını ayarladık */
 #search {
     margin: 5px 0;
     height: 70%;
@@ -56,7 +68,7 @@ body {
     background-color: transparent;
 }
 
-
+/*Butona özellikler tanımlandı.*/
 button {
     background-color: #303134;
     color: #e8eaed;
@@ -66,7 +78,7 @@ button {
     border-radius: 4px;
     border: 1px solid #303134;
 }
-
+/*Butonun üstüne gelince border rengini değiştirdik. */
 button:hover {
     border-color: white;
 }
@@ -74,7 +86,6 @@ button:hover {
 .two-buttons {
     display: flex;
     justify-content: space-around;
-
     width: 100%;
 
 }
